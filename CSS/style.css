@@ -1,59 +1,32 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: brown;
+   /*  background-color: brown; */
 }
-table{
-    border: 1px solid black;
-    width: 700px;;
-    height: 100px;
-    margin-top: 16px;
-    margin-left: 10px;
-    padding-top: 1px;
-}
-td{
-    border: 1px solid black;
-    text-align: center;
-    background-color: beige;
-    font-family: 'Yeon Sung', cursive;
-    font-weight: bold;
-}
-input{
-    width: 200px;
-    height: 30px;
-    margin-top: 10px;
-    margin-left: 10px;
-    background-color: white;
+h1{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+
 }
 button{
-    width: 260px;
-    height: 30px;
-    margin-top: 10px;
-    margin-left: 10px;
-    background-color: white;
-    font-family: 'Yeon Sung', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: none;
+    min-height: 40px;   
+    font-size: 25px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
 }
-
-@media (max-width : 768px){
-    button {
-        width: 418px;
-    }
-    table {
-        border: 1px solid black;
-        width: 574px;
-    }
-
-}
-@media (max-width : 425px){
-    input{
-        width: 340px;
-    }
-    button {
-        width: 340px;
-    }
-    table {
-        border: 1px solid black;
-        width: 340px;
-    }
-
+button:hover{
+    background-color: bisque;
 }
