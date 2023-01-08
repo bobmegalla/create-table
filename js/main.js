@@ -19,4 +19,6 @@ function createTable (){
         }
     }
         body.appendChild(table)
+        rowInputs.value =""
+        colsInputs.value=""
 }
